@@ -15,5 +15,4 @@ addons:
     - libaldmb1-dev
     - fakeroot
 script:
-- cd Engine/
 - fakeroot debian/rules binary
