@@ -13,6 +13,7 @@ addons:
     - libvorbis-dev
     - liballegro4-dev
     - libaldmb1-dev
+    - fakeroot
 script:
 - cd Engine/
 - fakeroot debian/rules binary
