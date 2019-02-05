@@ -4,6 +4,7 @@ compiler:
 addons:
   apt:
     packages:
+    - debhelper
     - build-essential
     - pkg-config 
     - cmake 
