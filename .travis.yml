@@ -1,0 +1,18 @@
+language: c
+compiler:
+  - gcc
+addons:
+  apt:
+    packages:
+    - build-essential
+    - pkg-config 
+    - cmake 
+    - libfreetype6-dev 
+    - libogg-dev 
+    - libtheora-dev 
+    - libvorbis-dev
+    - liballegro4-dev
+    - libaldmb1-dev
+script:
+- cd Engine/
+- fakeroot debian/rules binary
